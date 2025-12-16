@@ -1,35 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Zerodha: Online brokerage platform</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerodha:Online brockerage platform</title>
   </head>
   <body>
-    <div>
-      <img src="logo.svg" width="150" />
-      <span>Signup</span>
-      <span>About</span>
-      <span>Products</span>
-      <span>Pricing</span>
-      <span>Support</span>
-    </div>
-    <div>
-      <center>
-        <img src="landing.svg" />
-      </center>
+    <!-- Navbar -->
+    <div
+      class="navbar"
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        box-shadow: 2px 1px 2px #eee;
+        height: 6vh;
+      "
+    >
+      <div
+        class="nav-container"
+        style="
+          width: 73vw;
+          padding: 10px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <div class="logoImgDiv">
+          <a href="https://zerodha.com/">
+            <img src="logo.svg" width="130px" height="80%" alt="" />
+          </a>
+        </div>
+        <div
+          class="nav-links"
+          style="
+            width: 550px;
+            display: flex;
+            justify-content: space-evenly;
+            color: #666;
+            font-size: 1.1rem;
+            font-weight: 530;
+            cursor: pointer;
+          "
+        >
+          <div>Signup</div>
+          <div>About</div>
+          <div>Products</div>
+          <div>Pricing</div>
+          <div>Support</div>
+        </div>
+      </div>
     </div>
 
-    <br />
-    <br />
-    <center>
-      <h1>Invest in everything</h1>
-    </center>
-    <center>
-      <h3>
+    <!-- Body -->
+    <div
+      style="
+        display: flex;
+        margin-top: 15px;
+        padding-top: 50px;
+        justify-content: center;
+      "
+    >
+      <div
+        class="container-body"
+        style="display: flex; justify-content: center; width: 48vw"
+      >
+        <img src="landing.svg" alt="" width="100%" />
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-heading" style="margin-top: 2vh">
+      <h1 style="text-align: center">Invest in everything</h1>
+    </div>
+    <div
+      class="footer-text"
+      style="margin-top: 1vh; color: #666; font-weight: 500"
+    >
+      <h2 style="text-align: center">
         Online platform to invest in stocks, derivatives, mutual funds, ETFs,
         bonds, and more.
-      </h3>
-    </center>
-    <center>
-      <button>Sign up for free</button>
-    </center>
+      </h2>
+    </div>
+    <div
+      class="footer-button"
+      style="padding-top: 5vh; display: flex; justify-content: center"
+    >
+      <div
+        style="
+          background-color: #387ed1;
+          color: #fff;
+          border-radius: 3px;
+          border: 1px solid rgba(0, 0, 0, 0) !important;
+          width: 142px;
+          height: 23px;
+          padding: 10px 30px;
+          font-weight: bold;
+          font-size: 1rem;
+        "
+      >
+        Sign up for free
+      </div>
+    </div>
   </body>
 </html>
